@@ -1,0 +1,61 @@
+:root {
+  --default-box-sizing: border-box;
+  --default-width: 100%;
+  --default-padding-x: 1rem;
+  --default-padding-y: 0rem;
+  --default-margin-x: 0.5rem;
+  --default-margin-y: 0rem;
+  --default-font-size: 1rem;
+  --default-card-background-color: ghostwhite;
+}
+*,
+::before,
+::after {
+  box-sizing: var(--default-box-sizing);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: var(--default-font-size);
+}
+.container-fluid {
+  width: var(--default-width);
+  max-width: var(--default-width);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.row > * {
+  flex-shrink: 0;
+  width: var(--default-width);
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.col-6 {
+  width: 50%;
+  flex: 0 0 auto;
+}
+.card {
+  width: var(--default-width);
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.375rem;
+  background-color: var(--default-card-background-color);
+}
+.card-body {
+  padding: 1rem 1rem;
+  font-weight: 400;
+}
+.card-body h6 {
+  font-size: 1.6rem;
+  white-space: nowrap;
+}

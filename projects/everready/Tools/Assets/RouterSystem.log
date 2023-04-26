@@ -1,0 +1,117 @@
+#This file shows the router's system log.
+001  1970-01-01 00:00:01             main System start
+002  1970-01-01 00:00:03             main sntp start
+003  1970-01-01 00:00:03             main DHCPD start!
+004  1970-01-01 00:00:06   wan_link_check wan up!
+005  1970-01-01 00:00:09       dhcpc_eth0 interface eth0 init
+006  1970-01-01 00:00:10       dhcpc_eth0 DHCPC_DISCOVER sending
+007  1970-01-01 00:00:19       dhcpc_eth0 DHCPC_DISCOVER sending
+008  1970-01-01 00:00:31       dhcpc_eth0 DHCPC_DISCOVER sending
+009  1970-01-01 00:00:45       dhcpc_eth0 DHCPC_DISCOVER sending
+010  1970-01-01 00:01:16       dhcpc_eth0 DHCPC_DISCOVER sending
+011  1970-01-01 00:01:22       dhcpc_eth0 DHCPC_DISCOVER sending
+012  1970-01-01 00:01:32       dhcpc_eth0 DHCPC_DISCOVER sending
+013  1970-01-01 00:01:45       dhcpc_eth0 DHCPC_DISCOVER sending
+014  1970-01-01 00:02:17       dhcpc_eth0 DHCPC_DISCOVER sending
+015  1970-01-01 00:02:23       dhcpc_eth0 DHCPC_DISCOVER sending
+016  1970-01-01 00:02:29       dhcpc_eth0 DHCPC_DISCOVER sending
+017  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_OFFER received
+018  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_STATE_REQUESTING init sending
+019  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_STATE_REQUESTING received
+020  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_STATE_REQUESTING lease = 86400
+021  1970-01-01 00:02:31       dhcpc_eth0 get new lease time: 86400 secs
+022  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_BOUND get ip=192.168.100.74
+023  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_BOUND get subnet=255.255.255.0
+024  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_BOUND get router=192.168.100.1
+025  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_BOUND get dns=192.168.100.1
+026  1970-01-01 00:02:31       dhcpc_eth0 DHCPC_BOUND get ip success
+027  2022-04-24 23:37:32             SNTP update time success
+028  2022-04-24 23:37:32             SNTP update time success
+029  2022-04-24 23:37:32             SNTP update time success
+030  2022-04-25 05:37:33             SNTP update time success
+031  2022-04-25 05:37:33             SNTP update time success
+032  2022-04-25 05:37:34             SNTP update time success
+033  2022-04-25 05:37:33             SNTP update time success
+034  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+035  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_STATE_RENEWING received
+036  2022-04-25 11:37:32       dhcpc_eth0 get new lease time: 86400 secs
+037  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_BOUND get ip=192.168.100.74
+038  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_BOUND get subnet=255.255.255.0
+039  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_BOUND get router=192.168.100.1
+040  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_BOUND get dns=192.168.100.1
+041  2022-04-25 11:37:32       dhcpc_eth0 DHCPC_BOUND get ip success
+042  2022-04-25 11:37:35             SNTP update time success
+043  2022-04-25 11:37:35             SNTP update time success
+044  2022-04-25 11:37:35             SNTP update time success
+045  2022-04-25 17:37:36             SNTP update time success
+046  2022-04-25 17:37:37             SNTP update time success
+047  2022-04-25 17:37:36             SNTP update time success
+048  2022-04-25 17:37:36             SNTP update time success
+049  2022-04-25 23:37:32       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+050  2022-04-25 23:37:37       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+051  2022-04-25 23:37:46       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+052  2022-04-25 23:37:59       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+053  2022-04-25 23:51:38             SNTP update time success
+054  2022-04-25 23:51:38             SNTP update time success
+055  2022-04-25 23:51:38             SNTP update time success
+056  2022-04-26 05:51:41             SNTP update time success
+057  2022-04-26 05:51:40             SNTP update time success
+058  2022-04-26 05:51:40             SNTP update time success
+059  2022-04-26 05:51:40             SNTP update time success
+060  2022-04-26 08:37:32       dhcpc_eth0 DHCPC_STATE_REBINDING sending
+061  2022-04-26 08:37:32       dhcpc_eth0 DHCPC_STATE_REBINDING received
+062  2022-04-26 08:37:32       dhcpc_eth0 IP from DHCP was expired!!
+
+063  2022-04-26 08:37:33       dhcpc_eth0 DHCPC_DISCOVER sending
+064  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_OFFER received
+065  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_STATE_REQUESTING init sending
+066  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_STATE_REQUESTING received
+067  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_STATE_REQUESTING lease = 86400
+068  2022-04-26 08:37:35       dhcpc_eth0 get new lease time: 86400 secs
+069  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_BOUND get ip=192.168.100.74
+070  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_BOUND get subnet=255.255.255.0
+071  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_BOUND get router=192.168.100.1
+072  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_BOUND get dns=192.168.100.1
+073  2022-04-26 08:37:35       dhcpc_eth0 DHCPC_BOUND get ip success
+074  2022-04-26 08:37:41             SNTP update time success
+075  2022-04-26 08:37:41             SNTP update time success
+076  2022-04-26 08:37:41             SNTP update time success
+077  2022-04-26 14:37:42             SNTP update time success
+078  2022-04-26 14:37:43             SNTP update time success
+079  2022-04-26 14:37:42             SNTP update time success
+080  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+081  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_STATE_RENEWING received
+082  2022-04-26 20:37:35       dhcpc_eth0 get new lease time: 86400 secs
+083  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_BOUND get ip=192.168.100.74
+084  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_BOUND get subnet=255.255.255.0
+085  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_BOUND get router=192.168.100.1
+086  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_BOUND get dns=192.168.100.1
+087  2022-04-26 20:37:35       dhcpc_eth0 DHCPC_BOUND get ip success
+088  2022-04-26 20:37:44             SNTP update time success
+089  2022-04-26 20:37:44             SNTP update time success
+090  2022-04-26 20:37:44             SNTP update time success
+091  2022-04-26 20:37:44             SNTP update time success
+092  2022-04-27 02:37:45             SNTP update time success
+093  2022-04-27 02:37:45             SNTP update time success
+094  2022-04-27 02:37:45             SNTP update time success
+095  2022-04-27 08:37:35       dhcpc_eth0 DHCPC_STATE_RENEWING sending
+096  2022-04-27 08:37:35       dhcpc_eth0 DHCPC_STATE_RENEWING received
+097  2022-04-27 08:37:35       dhcpc_eth0 IP from DHCP was expired!!
+
+098  2022-04-27 08:37:36       dhcpc_eth0 DHCPC_DISCOVER sending
+099  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_OFFER received
+100  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_STATE_REQUESTING init sending
+101  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_STATE_REQUESTING received
+102  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_STATE_REQUESTING lease = 86400
+103  2022-04-27 08:37:38       dhcpc_eth0 get new lease time: 86400 secs
+104  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_BOUND get ip=192.168.100.74
+105  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_BOUND get subnet=255.255.255.0
+106  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_BOUND get router=192.168.100.1
+107  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_BOUND get dns=192.168.100.1
+108  2022-04-27 08:37:38       dhcpc_eth0 DHCPC_BOUND get ip success
+109  2022-04-27 08:37:47             SNTP update time success
+110  2022-04-27 08:37:47             SNTP update time success
+111  2022-04-27 08:37:47             SNTP update time success
+112  2022-04-27 14:38:08             SNTP update time success
+113  2022-04-27 14:38:09             SNTP update time success
+114  2022-04-27 14:38:08             SNTP update time success

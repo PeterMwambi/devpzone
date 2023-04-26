@@ -1,0 +1,83 @@
+{
+    "tutor-registration-form-step-1": [
+        "firstname",
+        "lastname",
+        "gender",
+        "date-of-birth",
+        "age",
+        "nationality",
+        "national-id",
+        "phone-number",
+        "email"
+    ],
+    "tutor-registration-form-step-2": [
+        "username",
+        "password",
+        "confirm-password"
+    ],
+    "tutor-login-form": [
+        "username",
+        "password"
+    ],
+    "student-registration-form-step-1": [
+        "firstname",
+        "lastname",
+        "gender",
+        "date-of-birth",
+        "age",
+        "nationality",
+        "national-id",
+        "phone-number",
+        "email"
+    ],
+    "student-registration-form-step-2": [
+        "username",
+        "password",
+        "confirm-password"
+    ],
+    "student-login-form": [
+        "username",
+        "password"
+    ],
+    "admin-registration-form-step-1": [
+        "firstname",
+        "lastname",
+        "gender",
+        "date-of-birth",
+        "age",
+        "nationality",
+        "national-id",
+        "phone-number",
+        "email"
+    ],
+    "admin-registration-form-step-2": [
+        "username",
+        "password",
+        "confirm-password"
+    ],
+    "admin-login-form": [
+        "username",
+        "password"
+    ],
+    "course-category-form": [
+        "name",
+        "description"
+    ],
+    "course-registration-form": [
+        "name",
+        "category",
+        "fee",
+        "description"
+    ],
+    "course-reception-form": [
+        "course",
+        "topics",
+        "description",
+        "notes"
+    ],
+    "fee-payment-form": [
+        "amount",
+        "mode",
+        "transaction-code"
+    ]
+}

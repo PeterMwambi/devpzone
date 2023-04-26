@@ -1,0 +1,38 @@
+{
+    "security-answer-1": {
+        "required": "You must answer security question 1",
+        "min": "Security answer 1 cannot be shorter than 3 letters",
+        "max": "Security answer 1 cannot be longer than 30 letters",
+        "pattern": "A valid security answer can only contains letters digits and spaces"
+    },
+    "security-question-1": {
+        "required": "Choose security question 1",
+        "min": "Security question 1 cannot be shorter than 5 letters",
+        "max": "Security question 1 cannot be longer than 100 letters",
+        "pattern": "A valid security question can only contains letters, digits, spaces and a question mark"
+    },
+    "security-answer-2": {
+        "required": "You must answer security question 2",
+        "min": "Security answer 2 cannot be shorter than 3 letters",
+        "max": "Security answer 2 cannot be longer than 30 letters",
+        "pattern": "A valid security answer can only contains letters digits and spaces"
+    },
+    "security-question-2": {
+        "required": "Choose security question 2",
+        "min": "Security question 2 cannot be shorter than 5 letters",
+        "max": "Security question 2 cannot be longer than 100 letters",
+        "pattern": "A valid security question can only contains letters, digits, spaces and a question mark"
+    },
+    "security-answer-3": {
+        "required": "You must answer security question 3",
+        "min": "Security answer 3 cannot be shorter than 3 letters",
+        "max": "Security answer 3 cannot be longer than 30 letters",
+        "pattern": "A valid security answer can only contains letters digits and spaces"
+    },
+    "security-question-3": {
+        "required": "Choose security question 3",
+        "min": "Security question 3 cannot be shorter than 5 letters",
+        "max": "Security question 2 cannot be longer than 100 letters",
+        "pattern": "A valid security question can only contains letters, digits, spaces and a question mark"
+    }
+}

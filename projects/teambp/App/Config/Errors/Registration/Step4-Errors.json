@@ -1,0 +1,22 @@
+{
+    "username": {
+        "required": "Choose a unique username",
+        "min": "Your username cannot be shorter than 5 letters",
+        "max": "Your username cannot be longer than 20 letters",
+        "pattern": "A valid username can only contain letters and numbers with no spaces",
+        "unique": "The username you chose has already been registered"
+    },
+    "password": {
+        "required": "Choose a unique password",
+        "min": "A secure password needs to be more than 6 characters",
+        "max": "A password cannot be longer than 25 characters"
+    },
+    "confirm-password": {
+        "required": "Confirm your password",
+        "matches": "Confirm password must match password"
+    },
+    "terms-and-conditions": {
+        "required": "You must agree to the terms and conditions",
+        "values": "Terms and conditions field contains an invalid value"
+    }
+}

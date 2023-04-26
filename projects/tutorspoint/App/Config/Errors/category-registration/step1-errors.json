@@ -1,0 +1,15 @@
+{
+    "name": {
+        "required": "Category name is required",
+        "min": "Category name cannot be bellow 5 letters",
+        "max": "Category name cannot be more than 50 letters",
+        "pattern": "Category name contains invalid characters. Please use letters, numbers, a period(.) or coma(,)",
+        "unique": "Category name has already been registered"
+    },
+    "description": {
+        "required": "Category description is required",
+        "min": "Category description cannot be bellow 10 letters",
+        "max": "Category description cannot be more than 300 letters",
+        "pattern": "Category description contains invalid characters. Please use letters, numbers, a period(.) or coma(,)"
+    }
+}

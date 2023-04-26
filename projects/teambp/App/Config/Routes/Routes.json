@@ -1,0 +1,43 @@
+{
+    "home": {
+        "methods": [
+            "GET"
+        ],
+        "getparams": {
+            "auth": "guest",
+            "page": "home"
+        },
+        "function": "Homepage"
+    },
+    "404": {
+        "methods": [
+            "GET"
+        ],
+        "function": "page404"
+    },
+    "member-registration": {
+        "methods": [
+            "POST",
+            "GET"
+        ],
+        "postparams": {
+            "step1": [
+                "firstname",
+                "lastname",
+                "gender",
+                "age",
+                "nationality",
+                "marital-status",
+                "occupation"
+            ]
+        },
+        "function": "MemberRegistration"
+    },
+    "member-login": {
+        "methods": [
+            "POST",
+            "GET"
+        ],
+        "function": "MemberLogin"
+    }
+}

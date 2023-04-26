@@ -1,0 +1,24 @@
+{
+    "security-answer-1": {
+        "required": "Security answer 1 is required",
+        "unique": "Invalid security answer 1"
+    },
+    "security-question-1": {
+        "required": "Security question 1 is required",
+        "different": [
+            "Security question 1 cannot be the same as security question 2"
+        ],
+        "unique": "Invalid security question 1"
+    },
+    "security-answer-2": {
+        "required": "Security answer 2 is required",
+        "unique": "Invalid security answer 2"
+    },
+    "security-question-2": {
+        "required": "Security question 2 is required",
+        "different": [
+            "Security question 2 cannot be the same as security question 1"
+        ],
+        "unique": "Invalid security question 2"
+    }
+}

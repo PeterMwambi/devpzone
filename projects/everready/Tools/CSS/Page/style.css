@@ -1,0 +1,84 @@
+body {
+  color: aliceblue;
+  /* font-size: 15px; */
+}
+
+.form-body {
+  background-color: aliceblue;
+  color: rgb(18, 18, 18);
+}
+
+.homeBackground {
+  --img-url: url(../../Assets/introBackground.jpg);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+.clientBackground {
+  --img-url: url(../../Assets/clientBackground.jpg);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(31, 30, 30, 0.452)),
+    var(--img-url);
+}
+
+.mt-lg {
+  margin-top: 15rem;
+}
+.mt-md {
+  margin-top: 10rem;
+}
+
+.mt-normal {
+  margin-top: 5rem;
+}
+
+.bg-translucent-white {
+  background-color: rgba(240, 248, 255, 0.125);
+}
+
+.text-darkaliceblue {
+  color: rgb(82, 65, 236);
+}
+
+.border-top-blue {
+  border-top: 5px solid rgb(82, 65, 236);
+}
+
+.icon-sm {
+  max-width: 25px;
+}
+.mt-half {
+  margin-top: 0.2rem;
+}
+.bg-receipt {
+  background-color: #007bff9d;
+}
+.text-capitalize {
+  text-transform: uppercase !important;
+}
+.mt-sm {
+  margin-top: 5rem !important;
+}
+.icon {
+  max-width: 200px;
+}
+
+.icon-md {
+  min-width: 200px;
+}
+.icon-m-sm {
+  max-width: 30px;
+}

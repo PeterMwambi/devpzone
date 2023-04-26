@@ -1,0 +1,34 @@
+{
+    "name": {
+        "required": true,
+        "min": 5,
+        "max": 90,
+        "pattern": "string-with-numbers-selected-characters-and-spaces",
+        "unique": true,
+        "exists": false,
+        "table": "courses",
+        "column": "c_name",
+        "method": "uniqueEntry"
+    },
+    "fee": {
+        "required": true,
+        "min": 1000,
+        "max": 50000,
+        "length": false,
+        "pattern": "int"
+    },
+    "category": {
+        "required": true,
+        "unique": true,
+        "exists": true,
+        "table": "course_category",
+        "column": "ct_name",
+        "method": "uniqueEntry"
+    },
+    "description": {
+        "required": true,
+        "min": 10,
+        "max": 300,
+        "pattern": "string-with-numbers-selected-characters-and-spaces"
+    }
+}

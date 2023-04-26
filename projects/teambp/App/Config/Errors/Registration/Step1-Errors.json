@@ -1,0 +1,36 @@
+{
+    "firstname": {
+        "required": "Your first name is required",
+        "min": "Your first name cannot be shorter than 2 letters",
+        "max": "Your first name cannot be longer than 25 letters",
+        "pattern": "Your first name contains invalid characters. Please use plain text with no spaces in between"
+    },
+    "lastname": {
+        "required": "Your last name is required",
+        "min": "Your last name cannot be shorter than 2 letters",
+        "max": "Your last name cannot be longer than 25 letters",
+        "pattern": "Your last name contains invalid characters. Please use plain text with no spaces in between"
+    },
+    "gender": {
+        "required": "Your gender is required",
+        "values": "Gender can only be female or male"
+    },
+    "age": {
+        "required": "Your age is required",
+        "min": "Your age must be above 18 years",
+        "max": "Your age must be bellow 80 years",
+        "constant": "Your age must be a number"
+    },
+    "nationality": {
+        "required": "Confirm your nationality",
+        "values": "Nationality field contains an incorrect value"
+    },
+    "marital-status": {
+        "required": "Confirm your marital status",
+        "values": "Marital status field contains an incorrect value"
+    },
+    "occupation": {
+        "required": "Confirm your current occupation",
+        "values": "Occupation field contains an incorrect value"
+    }
+}

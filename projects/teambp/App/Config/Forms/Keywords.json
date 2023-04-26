@@ -1,0 +1,23 @@
+{
+    "min": {
+        "method": "ValidateMinimum"
+    },
+    "max": {
+        "method": "ValidateMaximum"
+    },
+    "pattern": {
+        "method": "ValidatePattern"
+    },
+    "required": {
+        "method": "ValidateRequired"
+    },
+    "constant": {
+        "method": "ValidateConstant"
+    },
+    "values": {
+        "method": "ValidateValues"
+    },
+    "different": {
+        "method": "ValidateDifferent"
+    }
+}

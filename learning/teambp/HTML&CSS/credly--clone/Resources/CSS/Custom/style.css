@@ -1,0 +1,155 @@
+@import url(/Resources/CSS/Helpers/font.css);
+
+/* Main Body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Image Resizing */
+.resized-md {
+  max-width: 120px;
+}
+
+.resized {
+  max-width: 15px;
+}
+
+.resized-sm {
+  max-width: 10px;
+}
+
+/* MARGINS */
+
+/* Margin Medium
+-Medium Equal margin size
+*/
+.m-md {
+  margin: 3.5rem 3.5rem 3.5rem 3.5rem;
+}
+
+.ml-n-md {
+  margin-left: -3.5rem;
+}
+.mt-5 {
+  margin-top: 1.2rem;
+}
+
+/* DISPLAY */
+
+.d-flex {
+  display: flex;
+}
+
+/* JUSTIFY */
+.justify-content-center {
+  justify-content: center;
+}
+
+/* WIDTH */
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* FONT */
+.sans-medium {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/* NAVIGATION */
+
+/* LOGO */
+.navigation-body {
+  display: flex;
+}
+
+.logo {
+  width: 25%;
+  margin: 3.5rem 3.5rem 0rem 3.5rem;
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+  max-width: 120px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  width: 75%;
+  margin: 3.5rem 3.5rem 0rem 16%;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.navbar .nav-item a {
+  text-decoration: none;
+  color: #58595b;
+}
+
+.nav-item {
+  margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+/* HEADER SECTION */
+.header-section {
+  background-image: url(/Resources/Assets/Credly_webheaders_home4.png);
+  background-position: 50% 38%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background-origin: content-box; */
+}
+
+.header-section-content {
+  margin: 0rem 1.2rem 1.2rem 12rem;
+  width: 30%;
+  padding: 2em 5em 5em 5em;
+  color: #58595b;
+}
+
+.header-section-heading h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top: -0.5rem;
+}
+.header-section-paragraph {
+  margin-top: 2rem;
+}
+.header-section-paragraph p {
+  font-family: sans-regular;
+  font-size: 24px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+.header-section-button {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-section-button a {
+  text-decoration: none;
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  font-family: sans-regular;
+  font-weight: 900;
+  color: #1f5b50;
+  box-sizing: border-box;
+  border: 3px solid #1f5b50;
+  border-radius: 5px;
+}

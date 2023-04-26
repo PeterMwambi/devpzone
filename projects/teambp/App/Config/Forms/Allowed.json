@@ -1,0 +1,9 @@
+{
+    "MEMBER_LOGIN_STEP_1": "login-form-step-1",
+    "MEMBER_LOGIN_STEP_2": "login-form-step-2",
+    "MEMBER_REGISTRATION_STEP_1": "registration-form-step-1",
+    "MEMBER_REGISTRATION_STEP_2": "registration-form-step-2",
+    "MEMBER_REGISTRATION_STEP_3": "registration-form-step-3",
+    "MEMBER_REGISTRATION_STEP_4": "registration-form-step-4",
+    "MEMBER_REGISTRATION_STEP_5": "registration-form-step-5"
+}

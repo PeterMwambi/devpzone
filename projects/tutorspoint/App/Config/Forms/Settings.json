@@ -1,0 +1,129 @@
+{
+    "tutor-registration-form-step-1": {
+        "rules": "tutor-registration/step-1",
+        "errors": "tutor-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-tutor-registration-step-2",
+        "handler": "tutor-registration"
+    },
+    "tutor-registration-form-step-2": {
+        "rules": "tutor-registration/step-2",
+        "errors": "tutor-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-tutor/registerTutor",
+        "nextstep": "complete-setup",
+        "handler": "tutor-registration"
+    },
+    "tutor-login-form": {
+        "rules": "tutor-login/step-1",
+        "errors": "tutor-login/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Login was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "login-tutor/loginTutor",
+        "nextstep": "complete-setup",
+        "handler": "tutor-login"
+    },
+    "student-registration-form-step-1": {
+        "rules": "student-registration/step-1",
+        "errors": "student-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-student-registration-step-2",
+        "handler": "student-registration"
+    },
+    "student-registration-form-step-2": {
+        "rules": "student-registration/step-2",
+        "errors": "student-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-student/registerStudent",
+        "nextstep": "complete-setup",
+        "handler": "student-registration"
+    },
+    "student-login-form": {
+        "rules": "student-login/step-1",
+        "errors": "student-login/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Login was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "login-student/loginStudent",
+        "nextstep": "complete-setup",
+        "handler": "student-login"
+    },
+    "admin-registration-form-step-1": {
+        "rules": "admin-registration/step-1",
+        "errors": "admin-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-admin-registration-step-2",
+        "handler": "admin-registration"
+    },
+    "admin-registration-form-step-2": {
+        "rules": "admin-registration/step-2",
+        "errors": "admin-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-admin/registerAdmin",
+        "nextstep": "complete-setup",
+        "handler": "admin-registration"
+    },
+    "admin-login-form": {
+        "rules": "admin-login/step-1",
+        "errors": "admin-login/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Login was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "login-admin/loginAdmin",
+        "nextstep": "complete-setup",
+        "handler": "admin-login"
+    },
+    "course-category-form": {
+        "rules": "category-registration/step-1",
+        "errors": "category-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Course category has been registered successfully",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-admin/registerCategory",
+        "nextstep": "complete-setup",
+        "handler": "course-category"
+    },
+    "course-registration-form": {
+        "rules": "course-registration/step-1",
+        "errors": "course-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Course has been registered successfully",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-admin/registerCourse",
+        "nextstep": "complete-setup",
+        "handler": "course-registration"
+    },
+    "course-reception-form": {
+        "rules": "course-reception/step-1",
+        "errors": "course-reception/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully registered the course requirements",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-tutor/registerCourse",
+        "nextstep": "complete-setup",
+        "handler": "course-reception"
+    },
+    "fee-payment-form": {
+        "rules": "fee-payment/step-1",
+        "errors": "fee-payment/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Payment was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-student/processPayment",
+        "nextstep": "complete-setup",
+        "handler": "fee-payment"
+    }
+}

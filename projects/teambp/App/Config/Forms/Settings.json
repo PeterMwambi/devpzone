@@ -1,0 +1,67 @@
+{
+    "login-form-step-1": {
+        "rules": "login/step1-rules",
+        "errors": "login/step1-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToLoginStep2"
+    },
+    "login-form-step-2": {
+        "rules": "login/step2-rules",
+        "errors": "login/step2-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToFinalStep",
+        "finalmethod": "ProcessMemberLogin"
+    },
+    "registration-form-step-1": {
+        "rules": "registration/step1-rules",
+        "errors": "registration/step1-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToRegistrationStep2"
+    },
+    "registration-form-step-2": {
+        "rules": "registration/step2-rules",
+        "errors": "registration/step2-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToRegistrationStep3"
+    },
+    "registration-form-step-3": {
+        "rules": "registration/step3-rules",
+        "errors": "registration/step3-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 3",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToRegistrationStep4"
+    },
+    "registration-form-step-4": {
+        "rules": "registration/step4-rules",
+        "errors": "registration/step4-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 4",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToRegistrationStep5"
+    },
+    "registration-form-step-5": {
+        "rules": "registration/step5-rules",
+        "errors": "registration/step5-errors",
+        "action": "StoreToCache",
+        "method": "StoreToCache",
+        "successmessage": "You have successfully completed step 5",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "GoToFinalStep",
+        "finalmethod": "RegisterMemberToDB"
+    }
+}

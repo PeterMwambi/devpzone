@@ -1,0 +1,34 @@
+{
+    "course": {
+        "required": true,
+        "unique": true,
+        "exists": true,
+        "table": "courses",
+        "column": "c_name",
+        "method": "uniqueEntry"
+    },
+    "topics": {
+        "required": true,
+        "pattern": "string-with-numbers-selected-characters-and-spaces",
+        "min": 10,
+        "max": 1000
+    },
+    "description": {
+        "required": true,
+        "pattern": "string-with-numbers-selected-characters-and-spaces",
+        "min": 10,
+        "max": 350
+    },
+    "notes": {
+        "file": {
+            "required": true,
+            "exists": false,
+            "allowedTypes": [
+                "pdf"
+            ],
+            "max": 5000000
+        },
+        "method": "register-tutor/registerNotes",
+        "uploadDirectory": "app/uploads/notes/"
+    }
+}

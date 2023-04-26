@@ -1,0 +1,52 @@
+@import url(/Resources/CSS/Helpers/font.css);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+}
+
+/* logo */
+.logo {
+  margin: 3rem 0rem 0rem 4rem;
+  width: 25%;
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+  max-width: 120px;
+}
+/* Navbar */
+.navbar {
+  font-family: sans;
+  font-size: 15px;
+  width: 75%;
+  display: flex;
+  margin: 4rem 0rem 0rem 25%;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #58595b;
+}
+
+.nav-item a img {
+  width: auto;
+  height: auto;
+  max-width: 10px;
+}
+
+.nav-item .search-icon {
+  width: auto;
+  height: auto;
+  max-width: 15px;
+}
