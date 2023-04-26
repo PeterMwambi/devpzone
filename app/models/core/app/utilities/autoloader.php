@@ -20,8 +20,8 @@ class Autoloader
     {
         spl_autoload_register(
             function ($className) {
-                $rootDir = str_replace("models/core/app/utilities", "", dirname(__FILE__));
-                $fileURI = strtolower($rootDir . str_replace("\\", "/", $className) . ".php");
+                $rootDir = str_replace("models\core\app\utilities", "", dirname(__FILE__));
+                $fileURI = strtolower($rootDir . $className . ".php");
                 include_once $fileURI;
             }
         );
