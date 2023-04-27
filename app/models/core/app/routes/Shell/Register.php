@@ -213,7 +213,4 @@ class Register extends Handler
         $identifier = "form-identifier";
         $this->setFormDefaults($url, $identifier);
     }
-
-
-
 }

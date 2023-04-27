@@ -20,9 +20,13 @@ class Autoloader
     {
         spl_autoload_register(
             function ($className) {
-                $rootDir = str_replace("models\core\app\utilities", "", dirname(__FILE__));
-                $fileURI = strtolower($rootDir . $className . ".php");
-                include_once $fileURI;
+                $root = str_replace("\\", "//", str_replace("models/core/app/utilities", "", dirname(__FILE__)));
+                $file = strtolower($root . str_replace("\\", "/", $className) . ".php");
+                if (file_exists($file)) {
+                    include_once $file;
+                } else {
+                    throw new \RuntimeException(sprintf("%s file was not found", $file));
+                }
             }
         );
         date_default_timezone_set("Africa/Nairobi");

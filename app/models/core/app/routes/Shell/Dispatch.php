@@ -132,5 +132,4 @@ class Dispatch extends Register
     {
         return http_response_code();
     }
-
 }

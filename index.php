@@ -1,10 +1,3 @@
-<?php
-require_once("app/public/autoload.php");
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +15,7 @@ require_once("app/public/autoload.php");
 
     <!-- Devpzone Pre loader icon -->
     <div class="d-flex justify-content-center mt-lg mb-0">
-        <img src="favicon.png" class="img-fluid large">
+        <img src="app/resources/assets/icons/devpzonelogo2.0.png" class="img-fluid large">
     </div>
 
     <!-- Devpzone Pre loader message -->
