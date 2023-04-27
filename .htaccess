@@ -1,4 +1,4 @@
-RewriteEngine On
+RewriteEngine on
 RewriteBase /
 
 # php -- BEGIN cPanel-generated handler, do not edit
@@ -10,9 +10,9 @@ RewriteBase /
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.\*)$ https://www.devpzone.com/$1 [R,L]
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.\*$ app/public/ [QSA,L]
+RewriteRule ^.*$ app/public/ [QSA,L]
