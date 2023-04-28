@@ -1,6 +1,10 @@
+:root {
+  --font-sans-demibold: url(../fonts/sans/berlinsansdemibold.ttf)
+}
+
 @font-face {
   font-family: "BerlinSansFBDemi-Bold";
-  src: url(../fonts/sans/berlinsansdemibold.ttf);
+  src: var(--font-sans-demibold);
 }
 
 .font-berlin {
@@ -8,14 +12,12 @@
 }
 
 .bg-header {
-  background-image: linear-gradient(
-    120deg,
-    rgba(217, 240, 255, 0.378),
-    rgba(158, 209, 238, 0.251),
-    rgba(158, 209, 238, 0.251),
-    rgba(161, 225, 238, 0.332),
-    rgb(223, 249, 255)
-  );
+  background-image: linear-gradient(120deg,
+      rgba(217, 240, 255, 0.378),
+      rgba(158, 209, 238, 0.251),
+      rgba(158, 209, 238, 0.251),
+      rgba(161, 225, 238, 0.332),
+      rgb(223, 249, 255));
 }
 
 .devpzone__logo {
@@ -26,6 +28,7 @@
   margin-top: 7rem;
   margin-bottom: 4rem;
 }
+
 .mt-lg {
   margin-top: 10rem;
   margin-bottom: 3rem;
@@ -45,24 +48,31 @@
 .v-small {
   max-width: 10px;
 }
+
 .md-small {
   max-width: 15px;
 }
+
 .md-small-1 {
   max-width: 16px;
 }
+
 .md-small-2 {
   max-width: 17px;
 }
+
 .small {
   max-width: 20px;
 }
+
 .sm-medium {
   max-width: 25px;
 }
+
 .medium {
   max-width: 50px;
 }
+
 .large {
   max-width: 100px;
 }
@@ -70,17 +80,21 @@
 .x-large {
   max-width: 200px;
 }
+
 .pointer {
   cursor: pointer;
 }
+
 .resize {
   max-width: 550px;
   background-position: center center;
 }
+
 .carousel-item {
   background-size: cover;
   background-position: center center;
 }
+
 .left-3 {
   left: -2.5rem !important;
   right: 2.5rem !important;
