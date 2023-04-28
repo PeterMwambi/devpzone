@@ -1,10 +1,6 @@
-:root {
-  --font-sans-demibold: url(../fonts/sans/berlinsansdemibold.ttf)
-}
-
 @font-face {
   font-family: "BerlinSansFBDemi-Bold";
-  src: var(--font-sans-demibold);
+  src: url(../fonts/sans/berlinsansdemibold.ttf);
 }
 
 .font-berlin {
