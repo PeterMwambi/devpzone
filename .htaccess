@@ -10,8 +10,8 @@ RewriteBase /
 
 
 
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.devpzone.com/$1 [R,L]
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
