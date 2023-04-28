@@ -1,6 +1,6 @@
 @font-face {
   font-family: "BerlinSansFBDemi-Bold";
-  src: url(../fonts/sans/berlinsansdemibold.ttf);
+  src: url(app/resources/css/fonts/sans/berlinsansdemibold.ttf);
 }
 
 .font-berlin {

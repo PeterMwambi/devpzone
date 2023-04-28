@@ -9,11 +9,11 @@ RewriteBase /
 # php -- END cPanel-generated handler, do not edit
 
 
-
+# Must trrafic must be https always for all requests
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ app/public/ [QSA,L]
+RewriteRule ^(.*)$ app/public/ [QSA,L]
