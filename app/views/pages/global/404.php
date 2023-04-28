@@ -17,7 +17,7 @@ use Models\Core\App\Utilities\Url;
 
     <div class="container-fluid">
         <div class="faq-error__navigation mx-4 my-4">
-            <a href="app/home">Home</a>
+            <a href="https://devpzone.com/app/home">Home</a>
         </div>
     </div>
 
