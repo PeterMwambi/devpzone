@@ -1,9 +1,0 @@
-{
-    "storage": "Models\\Core\\App\\Cache\\Storage",
-    "register-tutor": "Models\\Core\\App\\Database\\Queries\\Create\\Tutor",
-    "login-tutor": "Models\\Core\\App\\Database\\Queries\\Read\\Tutor",
-    "register-student": "Models\\Core\\App\\Database\\Queries\\Create\\Student",
-    "login-student": "Models\\Core\\App\\Database\\Queries\\Read\\Student",
-    "register-admin": "Models\\Core\\App\\Database\\Queries\\Create\\Admin",
-    "login-admin": "Models\\Core\\App\\Database\\Queries\\Read\\Admin"
-}
